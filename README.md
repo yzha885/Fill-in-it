@@ -1,5 +1,14 @@
 # Fill-in-it
 
+
+# Sample 
+?- Puzzle = [[‘#',h,'#'],[_,_,_],['#',_,'#']],WordList = [[h,a,t], [b,a,g]],puzzle_solution(Puzzle, WordList).
+Puzzle = [[#, h, #], [b, a, g], [#, t, #]],
+WordList = [[h, a, t], [b, a, g]] ;
+false.
+
+
+
 A fill-in Puzzle(sometimes called a fill-it-in) is like a corssword puzzle, except that instead of being give obscure clues telling us whic words go where, you are 
 given a list of all the words to place in the puzzle, but not told where they go.
 
